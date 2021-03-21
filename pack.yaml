@@ -1,0 +1,14 @@
+ref: tranform
+name: Transform
+description: Pack to transform data.
+keywords:
+  - json
+  - object
+  - query
+  - path
+  - find
+version: 0.1.0
+python_versions:
+  - '3'
+author: William Bartholomew
+email: wdb@willbar.com

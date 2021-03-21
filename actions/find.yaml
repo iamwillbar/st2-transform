@@ -1,0 +1,17 @@
+---
+name: find
+pack: transform
+runner_type: python-script
+description: Returns the values that match an ObjectPath expression.
+entry_point: find.py
+parameters:
+  data:
+    type: object
+    description: Object to be queried.
+    required: true
+    position: 1
+  path:
+    type: string
+    description: ObjectPath for values to return.
+    required: true
+    position: 2
